@@ -1,0 +1,491 @@
+***************************************MEDIA QUERIES *******************************/
+/**************DESKTOP***************/
+@media screen and (max-width:1200px){
+
+    #Layer_1{
+        width: 28vw;
+    }
+    .cover{
+        width: 40%;  
+    }
+ 
+}
+@media screen and (max-width: 1034px){
+    .wrapper-form{
+       width: 80%;    
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-height: 1366px){
+    .cover{
+        width: 60%;  
+    }
+}
+@media screen and (max-width: 944px){
+    #Layer_1{
+        width: 30vw;
+    }
+    .cover{
+        width: 42%;  
+    }
+}
+@media screen and (max-width: 800px){
+   
+    .cover{
+        width: 46%;  
+    }
+}
+@media screen and (max-width: 700px){
+     #Layer_1{
+        width: 32vw;
+         height: 14vh;
+    }
+   
+    .cover{
+        width: 45%;  
+    }
+    .wrapper-form{
+       width: 90%;
+        
+    }
+}
+@media screen and (max-width: 500px){
+     #Layer_1{
+        width: 50vw;
+         height: 12vh;
+    }
+   
+    .cover{
+        width: 100%;  
+        height: 100%;
+    }
+    .wrapper-form{
+       width: 90%;
+       box-sizing: border-box;
+        
+    }
+}
+
+
+/*************************MEDIA QUERIES FOR LOGGED IN PAGE ***************************/
+/*************************MEDIA QUERIES BIG DESKTOP*******************/
+@media screen and (min-width: 1401px) and (min-height: 900px) {
+    .premium {
+        height: 50px;
+        padding: 0 10px;
+        align-items: center;
+        padding-left: 1px
+    }
+
+    .premium .img {
+        width: 90px;
+        height: 40px;
+        margin-left: 0;
+    }
+    .premium .img img{
+        width: auto;
+        height: auto;
+    }
+
+    .premium h3 {
+        font-size: 16px;
+        width: 130px;
+
+    }
+
+    /********TOP SETTINGS ***************/
+    .settings {
+        height: 66px;     
+    }
+
+    /*****************BIG POSTER WATCH *********/
+    .watch {
+        width: 200px;
+    }
+
+    .watch button:first-child {
+        height: 50px;
+    }
+    
+    .recent--movies ul {
+        margin: 20px auto;
+         -ms-flex-pack: flex-start;
+    -webkit-box-pack: flex-start;
+    justify-content: flex-start;
+    
+    }
+     .recent--movies li {
+        margin-left: 40px;
+        margin-bottom: 28px;
+    }
+
+
+}
+
+
+
+
+
+/****/
+@media screen and (max-width: 1240px) {
+  .texts ul li:nth-child(2) {
+      width: 40%;
+    }
+}
+
+/****/
+@media screen and (max-width: 1160px) {
+    .texts ul li{
+        width: 40%;
+        margin-left: 10px;
+    }
+    .bug {
+        width: 200px;
+    }
+
+}
+
+/**********************IPADS****************/
+@media screen and (max-width: 1044px) {
+ 
+    .texts ul {
+        width: 100%;
+    }
+    .texts article {
+        width: 100%;
+    }
+
+    .cycles--1,
+    .cycles--2,
+    .cycles--3 {
+        padding-top: 20px;
+        width: 25%;
+        margin-right: 10px;
+        height: 100px;
+
+    }
+
+    /*******************movies and series section *****************/
+    .recent--movies ul {
+        width: 100%;
+        margin: 20px auto;
+        justify-content: flex-start;
+    }
+
+    .recent--movies li {
+        margin-right: 38px;
+        margin-bottom: 28px;
+    }
+
+   .recent--movies ul {
+         -ms-flex-pack: flex-start;
+    -webkit-box-pack: flex-start;
+    justify-content: flex-start;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1036px) {
+    .recent--movies ul {
+         -ms-flex-pack: flex-start;
+    -webkit-box-pack: flex-start;
+    justify-content: flex-start;
+    }
+
+    .recent--movies li {
+        margin-top: 20px;
+        width: 210px;
+        height: 250px;
+        font-size: 16px;
+    }
+
+    .movie--wrapper {
+        width: 100%;
+        height: 220px;
+        margin-top: 10px;
+    }
+
+    .recent--movies span {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-height: 1366px){
+    .sign-out {
+    width: 120px;
+        height: 40px;
+        padding-top: 12px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    .premium {
+        width: 120px;
+        height: 42px;
+    }
+    .premium .img{ 
+       padding-bottom: 5px;
+       
+    }
+
+    .sign-out {
+        width:120px;
+        height: 45px;
+
+    }
+
+    .copyright span {
+        width: 100%;
+    }
+
+    #logo {
+        height: 5vh;
+    }
+
+    .texts ul li {
+        text-align: center;
+    }
+
+    .watch button:first-child {
+        height: 2.8vh;
+    }
+
+    .cover--popular {
+
+        width: 25vw;
+    }
+    .recent--movies ul {
+         -ms-flex-pack: flex-start;
+    -webkit-box-pack: flex-start;
+    justify-content: flex-start;
+    }
+
+    .recent--movies li {
+        margin-top: 20px;
+        width: 180px;
+        height: 220px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .movie--wrapper {
+        width: 100%;
+        height: 180px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+   
+
+    .flex-text {
+        height: 180px;
+    }
+
+    .prev--cover {
+        top: 62%;
+    }
+
+    .texts article p {
+        font-size: 12px;
+    }
+
+    .texts article {
+        width: 100%;
+
+    }
+
+    .cycles--1,
+    .cycles--2,
+    .cycles--3 {
+        padding-top: 20px;
+        width: 26%;
+        height: 70px;
+
+    }
+
+    .round--dot {
+        height: 100%;
+        padding-top: 14px;
+    }
+
+    .round--dot h2,
+    .recent--movies h2 {
+        font-size: 14px;
+    }
+
+
+    .recent--movies li {
+        width: 180px;
+        height: 220px;
+        font-size: 16px;
+    }
+
+    .movie--wrapper {
+        width: 100%;
+        height: 180px;
+        margin-top: 10px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 800px){
+    
+     .big-posters {
+    display: none;
+}
+    .section{
+        display: none;
+    }
+    .wrapper--signout{
+        display: block;     
+        
+    }
+    .main{
+        width: 100%;
+    }
+    .recent--movies{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .recent--movies li {
+        margin-top: 20px;
+        width: 120px;
+        height: 200px;
+        font-size: 16px;
+    }
+     .movie--wrapper {
+        width: 100%;
+        height: 160px;
+        margin-top: 10px;
+    }
+    
+    .cover--pop{
+        width: 10vw;
+    }
+    .settings .font-logo {
+        width: 45%;
+    }
+
+    .bug {
+        padding-top: 8px;
+        text-align: center;
+        width: 130px;
+    }
+    .cog{
+         padding-top: 8px;
+    }
+    .wrapper--signout button{
+    width: 60px;
+    margin-right: 14px;
+    font-size: 8px;
+    
+}
+
+    
+}
+
+
+@media screen and (max-width: 724px){
+   
+    .recent--movies li {
+        width: 150px;
+        height: 200px;
+        font-size: 16px;
+    }
+     .movie--wrapper {
+        width: 100%;
+        height: 160px;
+        margin-top: 10px;
+    }
+        .cover--popular h3, .cover--pop h3{
+       font-size: 8px;
+    }
+
+       
+}
+@media screen and (max-width: 692px){
+    .cover--popular, .cover--pop{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+     .settings .font-logo {
+        width: 50%;
+       
+    }
+    .wrapper--signout button{
+    width: 60px;
+    height: 20px;
+        margin-right: 0;
+        margin-left: 22vw;
+    }
+
+    .bug {
+        display: none;
+    }
+    .cog{
+         padding-top: 0;
+    }
+    .recent--movies h2{
+        font-size: 12px;
+    }
+    .recent--movies span{
+        font-size: 10px;
+    }
+    .recent--movies li{
+        margin-left: 20px;
+        width: 120px;
+        height: 200px;
+    }
+    .recent--movies{
+        width: 100%;
+        margin: 0 auto;
+    }
+   
+}
+
+@media screen and (max-width: 560px){
+
+    .recent--movies li {
+         width: 170px;
+        height: 250px;
+    }
+     .movie--wrapper {
+       height: 200px;
+    }
+    
+    
+}
+@media screen and (max-width: 420px) {
+    .wrapper--signout button{
+        margin-left: 16vw;
+    }
+.recent--movies li {
+    margin-left: 28px;
+         width: 300px;
+        height: 320px;
+    }
+     .movie--wrapper {
+       height: 250px;
+    }
+
+}
+@media screen and (max-width: 375px){
+   
+    .wrapper--signout button{
+        margin-left: 10vw;
+    }
+}
+
+
+

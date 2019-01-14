@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body, .container-all, .container{
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+     overflow: hidden; 
+}
+.container{
+    height: 100vh;
+    position: relative;  
+}
+#picture, #picture img, .form, .user--photo img, .premium img, .border, .selection, .big-posters img, .movie--wrapper img{
+    width: 100%;
+    height: 100%; 
+}
+#picture {
+    position: absolute;
+    top: 0;
+}
+#picture img{
+    object-fit: cover;
+}
+
+.wrapper{
+    position: relative;
+    background-color:  rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    height: 100%;
+}
+.cover{
+    width: 32%;
+    height: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    color: #fff;
+    display: none;
+}
+.form{
+    background-color: rgba(0, 0, 0, 0.8);   
+}
+.logo{
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+  
+}
+.logo-wrapper{
+    width: 50%;
+    height:100%;
+    text-align: left;
+    padding: 2px;
+    
+}
+#Layer_1{
+    width: 18vw;
+    height: 18vh;
+}
+.wrapper-form{
+    padding-top: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 90%;
+    display: block;
+    position: relative;
+}
+.form-group{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;  
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+.form-group input, .search input {
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    border-radius: 5px;
+    cursor: text;
+    box-sizing: border-box;
+  }
+
+  .wrapper-form input[type=text], .wrapper-form input[type=password]{
+      padding: 10px;
+      font-size: 1.5rem;
+      color: #000;
+  }
+  
+.form-label {
+        position: absolute;
+        left: 16px;
+        top: 14px;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        color: #000;
+        z-index: 1;
+        transition: transform 150ms ease-out, font-size 150ms ease-out;
+    -webkit-transition: transform 150ms ease-out, font-size 150ms ease-out;
+    -moz-transition: transform 150ms ease-out, font-size 150ms ease-out;
+    -o-transition: transform 150ms ease-out, font-size 150ms ease-out;
+}
+.focused .form-label {
+    transform: translateY(-118%);
+    -webkit-transform: translateY(-118%);
+    -moz-transform: translateY(-118%);
+    -o-transform: translateY(-118%);
+    font-size: .55em;
+    color: red;
+    font-weight: bold;
+  }
+
+.signIn{
+    font-size: 3vw;
+    color: #fff;
+}
+.button, .premium, .watch button:first-child{
+    width: 100%;
+    height: 5vh;
+    margin-top: 50px;
+    border-radius:5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #115d7f;
+    border:none;
+    transition: background .5s ease;
+    -webkit-transition: background .5s ease;
+    -ms-transition: background .5s ease;
+}
+.button:hover, .next:hover,
+.prev:hover, .premium:hover{
+    background-color:#eb4839;
+    cursor: pointer;
+    transition: background .5s ease;
+    -webkit-transition: background .5s ease;
+    -ms-transition: background .5s ease;
+     -o-transition: background .5s ease;
+     -moz-transition: background .5s ease;
+}
+.button{
+    color: #f8f9fb;
+    text-decoration: none;
+}
+.article{
+    text-align: left;
+    padding: 4px;
+    color: white;
+    margin-top: 5px;
+}
+.article p, .article span, .user--photo h3, 
+.premium h3, .flex--contents h3, .flex--content h3, 
+.sign-out h3, .bug h3, .circles h3, .watch button h3,
+ .cover--popular h3, .more, .cover--pop h3{
+    font-size: 12px;
+}
+.article input{
+    margin-right: 4px;
+}
+.signup{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.signup em{
+    opacity: 0.5;
+    margin-right: 10px;
+}
+.signup a{
+   text-decoration: none;
+   color: #830115;
+   -webkit-transition: all .5s ease-in;
+   -moz-transition: all .5s ease-in;
+   transition: all .5s ease-in;
+}
+.signup a:hover{
+    text-decoration: line-through;
+     transition: all .5s ease-in;
+     -o-transition: all .5s ease-in;
+     -webkit-transition: all .5s ease-in;
+    
+    -moz-transition: all .5s ease-in;
+}
+
+
