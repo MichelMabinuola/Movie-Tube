@@ -167,7 +167,7 @@ body, .container-all, .container{
 }
 .article p, .article span, .user--photo h3, 
 .premium h3, .flex--contents h3, .flex--content h3, 
-.sign-out h3, .bug h3, .circles h3, .watch button h3,
+.sign-out h3, .bug h3, .circles h3, .watch button,
  .cover--popular h3, .more, .cover--pop h3{
     font-size: 12px;
 }
