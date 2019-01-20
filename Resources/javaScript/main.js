@@ -36,9 +36,28 @@ $(document).ready(() => {
     $('.button').on('click', () => {
         window.location.href = 'login.html';
         return false;
+        
+        function loadContent2(url){
+        $.get(url, function (data) {
+            var movieSection = $(data).find('.button').html();
+            $('.button').html(movieSection);
+        });
+    }
+    
+    History.Adapter.bind( window, "statechange", function() {
+        var state = History.getState();
+        loadContent2(state.url);
+    });
+    
+        
+        
     })
-
-   
+    
+    
+    
+    
+    
+    
 
     
 
