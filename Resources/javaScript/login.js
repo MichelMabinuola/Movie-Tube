@@ -201,7 +201,10 @@ $(document).ready(() => {
             if (this.readyState == 4 && this.status == 200) {
                window.location.href = 'index.html';
             }
+            
+            return false;
         };
+        
         xhttp.open("GET", "index.html", true);
         xhttp.send();
         

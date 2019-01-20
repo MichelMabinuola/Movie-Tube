@@ -61,6 +61,7 @@ $(document).ready(() => {
             if (this.readyState == 4 && this.status == 200) {
                 window.location.href = 'login.html'
             }
+            return false;
         };
         xhttp.open("GET", "login.html", true);
         xhttp.send();
