@@ -189,11 +189,27 @@ $(document).ready(() => {
 
         }
     })
+    
+
 
     $('.sign-out').on('click', () => {
-        window.location.href = 'index.html';
-        return false;
+        
+        
+        let xhttp = new XMLHttpRequest();
+
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+               window.location.href = 'index.html';
+            }
+        };
+        xhttp.open("GET", "index.html", true);
+        xhttp.send();
+        
+
     })
+    
+    
+   
 
     /* function resized() {
          let mediaQuery = window.matchMedia('(max-width: 800px)');
