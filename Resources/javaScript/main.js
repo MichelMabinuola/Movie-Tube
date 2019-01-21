@@ -55,19 +55,14 @@ $(document).ready(() => {
 
     $('.button').on('click', () => {
 
-        let xhttp = new XMLHttpRequest();
+        
+        setTimeout(function(){
+                    window.location.href = 'login.html'
+                }, 0)
 
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                window.location.href = 'login.html'
-            }
-            return false;
-        };
-        xhttp.open("GET", "login.html", true);
-        xhttp.send();
 
-       
     })
+
 
 
 
